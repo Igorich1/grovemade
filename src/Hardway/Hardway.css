@@ -1,0 +1,49 @@
+.hardway-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.zagolovok-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  margin-top: 116px;
+}
+
+.text-mini {
+  margin-top: 23px;
+  width: 777px;
+  height: 72px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.8px;
+
+  color: #a0a0a0;
+}
+
+.hardway-photo {
+  margin-top: 23px;
+}
+
+@media (max-width: 475px) {
+  .hardway-photo {
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .text-mini {
+    width: 308px;
+    margin-bottom: 90px;
+  }
+}

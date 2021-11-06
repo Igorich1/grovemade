@@ -1,0 +1,138 @@
+.Desing__heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 58px;
+
+  color: #000000;
+}
+
+.Desing__middle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #a0a0a0;
+}
+
+.Desing__bottom {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.Drobot-style{
+    display: flex;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Drobot-style__photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block{
+    display: flex;
+    display: inline-flex;
+    margin-top: 82px;
+
+}
+
+.Windows{
+    margin-right: 25px;
+    
+    width: 500px;
+}
+
+.Mac{
+    width: 500px;
+
+}
+
+.name-model{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+height: 30px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 30px;
+
+
+color: #000000;
+}
+
+
+.Silka-model{
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+text-decoration: none;
+
+}
+
+
+@media (max-width: 475px){
+
+  .block{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .Drobot-style{
+    display: contents;
+
+  }
+
+  .Windows{
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -40px;
+    
+    
+  }
+  .Mac{
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Silka-model{
+    margin-bottom: 25px;
+    
+  }
+  .Desing__middle{
+    font-size: 10px;
+    line-height: 2px;
+  }
+.Desing__heading{
+  font-size: 29px;
+  line-height: 5px;
+}
+
+}

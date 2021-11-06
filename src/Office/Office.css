@@ -1,0 +1,86 @@
+.office-block {
+  position: relative;
+  margin-top: 95px;
+}
+
+.office__photo {
+  height: 100%;
+  width: 100%;
+}
+
+.office__bottom {
+  text-decoration: none;
+  margin-top: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.office__text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.office__heading {
+  width: 440px;
+  height: 46px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 46px;
+}
+
+.office__middle {
+  width: 211px;
+  height: 18px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  display: contents;
+}
+
+@media (max-width: 475px) {
+  .office__heading {
+    margin-bottom: 10px;
+    margin-top: 77px;
+    width: revert;
+    height: fit-content;
+  }
+  .office__photo {
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .office__text {
+    height: auto;
+  }
+}
